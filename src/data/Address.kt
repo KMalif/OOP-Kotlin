@@ -8,4 +8,8 @@ class Address {
     var Country : String = "Indonesia"
 
 
+
+
+
+
 }

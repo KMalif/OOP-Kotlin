@@ -6,18 +6,18 @@ fun main (){
     // membuat object dengan memanggil class person
     val alif = Person()
     //manipulasi properties dari class person
-    alif.FirstName = "Alif"
+    alif.firstName = "Alif"
 
 
     val khafidul = Person()
-    khafidul.FirstName = "Khafidul"
-    khafidul.MiddleName = " "
-    khafidul.LastName = "Mualif"
+    khafidul.firstName = "Khafidul"
+    khafidul.middleName = " "
+    khafidul.lastName = "Mualif"
 
 
     //mengakses properties >> NamaObject.Properties
-    println(khafidul.FirstName)
-    println(khafidul.LastName)
+    println(khafidul.firstName)
+    println(khafidul.lastName)
 
 
 
